@@ -69,7 +69,8 @@ redis-server
 Verify it’s running:
 
 redis-cli ping
-# Should return: PONG
+
+Should return: PONG
 
 2. Start the FastAPI Server
 
