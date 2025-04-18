@@ -13,7 +13,7 @@ Features
 ⸻
 
 File Structure
-
+```
 p2p-messaging/
 ├── main.py           # FastAPI API to send messages via Redis Pub/Sub
 ├── subscriber.py     # Redis client that listens for user-specific messages
@@ -21,7 +21,7 @@ p2p-messaging/
 ├── client.py         # (Phase 1) Socket-based client
 ├── run-script.sh     # Shell script to check Redis and start FastAPI
 └── README.md         # This file
-
+```
 
 
 ⸻
